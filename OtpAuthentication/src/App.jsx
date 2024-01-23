@@ -1,11 +1,13 @@
-
+import PhoneInput from './components/PhoneInput'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>otp authentication</div>
+    <div className='App'>
+      <h1>Otp authentication</h1>
+      <PhoneInput />
+    </div>
   )
 }
 
