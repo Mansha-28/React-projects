@@ -1,0 +1,55 @@
+*{
+  text-align: center;
+  background-color: #151416;
+  color: #FFF;
+}
+
+.container{
+  background-color: #2b3b47;
+  height: 200px;
+  width: 600px;
+  margin: auto;
+}
+
+
+.options{
+  width: 500px;
+  margin: auto;
+  display: flex;
+}
+
+.options>div{
+  margin: 10px;
+}
+
+.content{
+  width: 500px;
+  margin: auto;
+}
+
+.password-input{
+  background-color: #FFF;
+  color: #000;
+  border-radius: 8px 0 0 8px;
+  padding: 12px 10px 8px 10px;
+  margin-right: -14px;
+  border: none;
+  height: 20px;
+  width: 400px;
+  text-align: start;
+  font-size: 1rem;
+}
+
+.password-input:focus{
+  outline: none;
+}
+
+.copy-btn{
+  padding: 10px;
+  margin: 10px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: blue;
+  color: #fff;
+  border-radius: 0 8px 8px 0;
+}
